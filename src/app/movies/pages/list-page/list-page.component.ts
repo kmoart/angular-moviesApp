@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Movie } from '../../interfaces/movie.interface';
+import { Movie, Search } from '../../interfaces/movie.interface';
 import { MoviesService } from '../../services/movies.service';
 
 @Component({
@@ -9,12 +9,15 @@ import { MoviesService } from '../../services/movies.service';
 })
 export class ListPageComponent implements OnInit{
 
-  public movies: Movie[] = [];
+  public movies: Search[] = [];
 
   constructor(private moviesServices: MoviesService){}
 
   ngOnInit(): void {
       this.moviesServices.getMovies()
-        .subscribe( movies => this.movies = movies );
+        .subscribe( movies =>{
+            this.movies = movies.Search;
+            console.log('movies -->', this.movies);
+        }  );
   }
 }

@@ -1,19 +1,19 @@
 <mat-card>
   <mat-card-header>
-    <mat-card-title>{{ movie.titulo }}</mat-card-title>
-    <mat-card-subtitle>Fecha de Lanzamiento: {{ movie.fechaLanzamiento }}</mat-card-subtitle>
+    <mat-card-title>{{ movie.Title }}</mat-card-title>
+    <mat-card-subtitle>Fecha de Lanzamiento: {{ movie.Year }}</mat-card-subtitle>
   </mat-card-header>
 
   <!--TODO:IMAGEN-->
 
   <mat-card-content>
-    <h4>{{ movie.publisher }}</h4>
+    <!-- <h4>{{ movie.Title }}</h4> -->
     <p>
-      <strong>Rating: </strong>{{ movie.rating }}
+      <strong>Tipo: </strong>{{ movie.Type }}
       <br>
       <mat-chip-listbox>
         <mat-chip>
-          {{ movie.characters }}
+          {{ movie.Type }}
         </mat-chip>
       </mat-chip-listbox>
     </p>
@@ -28,7 +28,7 @@
     </button>
     <span class="spacer"></span> -->
 
-     <button mat-button mat-raised color="primary" [routerLink]="['/movies', movie.id ]">
+     <button mat-button mat-raised color="primary" [routerLink]="['/movies', movie.Title]">
       <mat-icon>more_horiz</mat-icon>
       detalles
     </button>

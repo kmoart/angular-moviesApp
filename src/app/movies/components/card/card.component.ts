@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Movie } from '../../interfaces/movie.interface';
+import { Movie, Search } from '../../interfaces/movie.interface';
 
 @Component({
   selector: 'movies-movie-card',
@@ -9,7 +9,7 @@ import { Movie } from '../../interfaces/movie.interface';
 export class CardComponent {
 
   @Input()
-  public movie! : Movie;
+  public movie! : Search;
 
   ngOnInit():void{
     if ( !this.movie ) throw Error('Movie property is required');

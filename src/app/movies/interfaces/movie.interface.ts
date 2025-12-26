@@ -1,13 +1,12 @@
 export interface Movie {
-  id:               string;
-  titulo:          string;
-  publisher:        Publisher;
-  fechaLanzamiento: Date;
-  rating:           string;
-  characters:       string;
+  Search: Search[];
+  totalResults: string;
+  response: string;
 }
 
-export enum Publisher {
-  DCComics = "DC Comics",
-  MarvelComics = "Marvel Comics",
+export interface Search{
+  Poster: string;
+  Title:  string;
+  Type:   string;
+  Year: string;
 }

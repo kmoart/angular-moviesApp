@@ -11,7 +11,8 @@ export class MoviesService {
 
   constructor(private http: HttpClient) { }
 
-  getMovies(): Observable<Movie[]>{
-    return this.http.get<Movie[]>(`${ this.baseUrl }/movies`)
+  getMovies(): Observable<Movie>{
+    //return this.http.get<Movie[]>(`${ this.baseUrl }/movies`)
+    return this.http.get<Movie>('https://www.omdbapi.com/?apikey=5fe64773&s=batman')
   }
 }
