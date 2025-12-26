@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "usuario": "John Doe",
+      "email": "john.due@gmail.com"
+    }
+  ],
+  "movies": [
+    {
+      "id": "dc-batman",
+      "titulo": "Batman",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "80",
+      "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "titulo": "Superman",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Kal-El"
+    },
+    {
+      "id": "dc-flash",
+      "titulo": "Flash",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "85",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+    },
+    {
+      "id": "dc-green",
+      "titulo": "Green Lantern",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "85",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    },
+    {
+      "id": "dc-arrow",
+      "titulo": "Green Arrow",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "85",
+      "characters": "Oliver Queen"
+    },
+    {
+      "id": "dc-wonder",
+      "titulo": "Wonder Woman",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Princess Diana"
+    },
+    {
+      "id": "dc-martian",
+      "titulo": "Martian Manhunter",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Martian Manhunter"
+    },
+    {
+      "id": "dc-robin",
+      "titulo": "Robin/Nightwing",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Dick Grayson"
+    },
+    {
+      "id": "dc-blue",
+      "titulo": "Blue Beetle",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+    },
+    {
+      "id": "dc-black",
+      "titulo": "Black Canary",
+      "publisher": "DC Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Dinah Drake, Dinah Lance"
+    },
+    {
+      "id": "marvel-spider",
+      "titulo": "Spider Man",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Peter Parker"
+    },
+    {
+      "id": "marvel-captain",
+      "titulo": "Captain America",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Steve Rogers"
+    },
+    {
+      "id": "marvel-iron",
+      "titulo": "Iron Man",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "80",
+      "characters": "Tony Stark"
+    },
+    {
+      "id": "marvel-thor",
+      "titulo": "Thor",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Thor Odinson"
+    },
+    {
+      "id": "marvel-hulk",
+      "titulo": "Hulk",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Bruce Banner"
+    },
+    {
+      "id": "marvel-wolverine",
+      "titulo": "Wolverine",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "James Howlett"
+    },
+    {
+      "id": "marvel-daredevil",
+      "titulo": "Daredevil",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Matthew Michael Murdock"
+    },
+    {
+      "id": "marvel-hawkeye",
+      "titulo": "Hawkeye",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Clinton Francis Barton"
+    },
+    {
+      "id": "marvel-cyclops",
+      "titulo": "Cyclops",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Scott Summers"
+    },
+    {
+      "id": "marvel-silver",
+      "titulo": "Silver Surfer",
+      "publisher": "Marvel Comics",
+      "fechaLanzamiento": "2000-01-01",
+      "rating": "90",
+      "characters": "Norrin Radd"
+    }
+  ]
+}
